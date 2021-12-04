@@ -1,0 +1,856 @@
+2021-04-15 04:08:53 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:08:53 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:08:53 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:08:53 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:08:53 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 04:11:27 [INFO] ACTION: RunAction#run:[event, regist]
+2021-04-15 04:11:27 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 27
+    [status] => 1
+)
+
+2021-04-15 04:11:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-04-15 04:11:27 [DEBUG] ACTION: MEventDao#insert[params=(Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 27
+    [status] => 1
+    [deleted_flag] => 
+    [created_user] => 
+    [created_time] => 
+    [updated_user] => 
+    [updated_time] => 
+)
+)]
+2021-04-15 04:11:27 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event(`event_name`,`start_time`,`end_time`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('Du lịch ','2021-04-01 04:05:10','2021-04-01 05:06:07','Nguyen thanh luong','098765767','ntl.tdc.edu.vn@gmail.com','9','3','27','1');)
+2021-04-15 04:11:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event(`event_name`,`start_time`,`end_time`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('Du lịch ','2021-04-01 04:05:10','2021-04-01 05:06:07','Nguyen thanh luong','098765767','ntl.tdc.edu.vn@gmail.com','9','3','27','1');)
+2021-04-15 04:15:13 [INFO] ACTION: RunAction#run:[event, regist]
+2021-04-15 04:15:13 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 
+    [status] => 
+)
+
+2021-04-15 04:15:13 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-04-15 04:16:22 [INFO] ACTION: RunAction#run:[event, edit]
+2021-04-15 04:16:22 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:16:22 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => edit
+    [id] => 79
+)
+
+2021-04-15 04:16:22 [DEBUG] ACTION: MEventDao#update[params=(Array
+(
+    [event_name] => 30/4
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyễn Thành Lương update
+    [phone_customer] => 0987654787
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 3
+    [number_kid] => 3
+    [type_id] => 27
+    [status] => 3
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 79
+        )
+
+)
+)]
+2021-04-15 04:16:22 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event SET `event_name`='30/4', `start_time`='2021-04-01 04:05:10', `end_time`='2021-04-01 05:06:07', `name_customer`='Nguyễn Thành Lương update', `phone_customer`='0987654787', `email_customer`='ntl.tdc.edu.vn@gmail.com', `number_adults`='3', `number_kid`='3', `type_id`='27', `status`='3', `updated_time`='2021-04-15 04:16:22', `updated_user`=NULL WHERE id = 79 and  deleted_flag <> 1)
+2021-04-15 04:16:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event SET `event_name`='30/4', `start_time`='2021-04-01 04:05:10', `end_time`='2021-04-01 05:06:07', `name_customer`='Nguyễn Thành Lương update', `phone_customer`='0987654787', `email_customer`='ntl.tdc.edu.vn@gmail.com', `number_adults`='3', `number_kid`='3', `type_id`='27', `status`='3', `updated_time`='2021-04-15 04:16:22', `updated_user`=NULL WHERE id = 79 and  deleted_flag <> 1)
+2021-04-15 04:16:22 [DEBUG] ACTION: BaseMySqliDao#update result = (0)
+2021-04-15 04:18:03 [INFO] ACTION: RunAction#run:[event, delete]
+2021-04-15 04:18:03 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:18:03 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => delete
+)
+
+2021-04-15 04:18:03 [DEBUG] ACTION: MEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 73
+        )
+
+)
+)]
+2021-04-15 04:18:03 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event SET `deleted_flag`=1, `updated_time`='2021-04-15 04:18:03', `updated_user`=NULL WHERE id = 73 and  deleted_flag <> 1)
+2021-04-15 04:18:03 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event SET `deleted_flag`=1, `updated_time`='2021-04-15 04:18:03', `updated_user`=NULL WHERE id = 73 and  deleted_flag <> 1)
+2021-04-15 04:18:03 [DEBUG] ACTION: BaseMySqliDao#update result = (0)
+2021-04-15 04:20:01 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:20:01 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:20:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:20:01 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:20:01 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:20:01 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:20:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:53:33 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:53:33 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:53:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:53:33 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:53:33 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:53:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:53:33 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:53:33 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:53:33 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:53:33 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:53:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:55:44 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:55:44 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:55:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:55:44 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:55:44 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:55:44 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:55:44 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:55:44 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:55:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:55:44 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:55:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 04:56:29 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:56:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:56:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:56:29 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:56:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:56:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:56:29 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:56:29 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 04:56:29 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:56:29 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:56:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:57:05 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:57:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:57:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:57:05 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:57:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:57:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:57:05 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:57:05 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:57:05 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:57:05 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:57:05 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:57:27 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 04:57:27 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:57:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 04:57:27 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 04:57:27 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 04:57:27 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 04:57:27 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 04:57:27 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 04:57:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 04:57:27 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 04:57:27 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 05:09:59 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 05:09:59 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:09:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 05:09:59 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 05:09:59 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:09:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 05:09:59 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 05:09:59 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 05:09:59 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 05:09:59 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 05:09:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 05:10:29 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 05:10:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:10:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 05:10:29 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 05:10:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:10:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 05:10:29 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 05:10:29 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 05:10:29 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 05:10:29 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 05:10:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 05:10:41 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 05:10:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:10:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 05:10:41 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 05:10:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:10:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 05:10:41 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 05:10:41 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 05:10:41 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 05:10:41 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 05:10:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 05:11:32 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 05:11:32 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:11:32 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 05:11:32 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 05:11:32 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 05:11:32 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 05:11:32 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 05:11:32 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 05:11:32 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 05:11:32 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 05:11:32 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:02:59 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:02:59 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:02:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:02:59 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:02:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:03:16 [INFO] ACTION: RunAction#run:[eventt, ]
+2021-04-15 06:03:16 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:03:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => eventt
+)
+
+2021-04-15 06:03:16 [ERROR] ACTION: The file [/opt/lampp/htdocs/phpsw/api/src/admin/action/EventtAction.php] dose not exist(at #0 /opt/lampp/htdocs/phpsw/api/src/admin/action/core/RunAction.php(20): RunAction::runActionScreen('eventt', '')
+#1 /opt/lampp/htdocs/phpsw/api/src/index.php(40): RunAction::run('eventt', NULL)
+#2 {main})
+2021-04-15 06:03:24 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:03:24 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:03:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:03:24 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:03:24 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:05:04 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:05:04 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:05:04 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:05:04 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:05:04 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 06:05:04 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:05:04 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 06:05:04 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 06:05:04 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 06:05:04 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 06:05:04 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 06:06:57 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 06:06:57 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:06:57 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 06:06:57 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:06:57 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:06:57 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:06:57 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 06:06:57 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 06:06:57 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 06:06:57 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 06:06:57 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 06:11:20 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:11:20 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 06:11:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 06:11:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:11:20 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 06:11:20 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 06:11:20 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 06:11:20 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 06:11:20 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:11:23 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:11:23 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:11:23 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 06:11:23 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 06:11:23 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 06:11:23 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 06:11:23 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 06:11:23 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 06:11:23 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 06:11:30 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-04-15 06:11:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-04-15 06:11:30 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-04-15 06:11:30 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-04-15 06:11:30 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-04-15 06:11:30 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 06:11:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 06:11:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 06:11:30 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 06:11:30 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 08:27:18 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-15 08:27:18 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 08:27:18 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-15 08:27:18 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-15 08:27:18 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-15 08:27:26 [INFO] ACTION: RunAction#run:[event, regist]
+2021-04-15 08:27:26 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 
+    [status] => 
+)
+
+2021-04-15 08:27:26 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-04-15 08:27:58 [INFO] ACTION: RunAction#run:[event, edit]
+2021-04-15 08:27:58 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-15 08:27:58 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => edit
+    [id] => 79
+)
+

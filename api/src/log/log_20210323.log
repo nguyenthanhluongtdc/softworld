@@ -1,0 +1,3486 @@
+2021-03-23 02:16:36 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:16:36 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:16:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:19:47 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:19:47 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:19:47 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:19:50 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:19:50 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:19:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:19:51 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:19:51 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:19:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:19:51 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:19:51 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:19:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:20:00 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:20:00 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:20:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:24:50 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:24:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:24:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:27:40 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:27:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:27:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:30:15 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:30:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:30:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:30:41 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:30:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:30:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:34:05 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:34:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:34:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:34:29 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:34:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:34:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:35:26 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:35:26 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:35:26 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:37:43 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:37:43 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:37:43 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:37:43 [DEBUG] ACTION: MEventDao#insert[params=(Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+    [deleted_flag] => 
+    [created_user] => 
+    [created_time] => 
+    [updated_user] => 
+    [updated_time] => 
+)
+)]
+2021-03-23 02:37:43 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event(`event_name`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('tour ninh thuận regist','nguyễn thành lương','0348829998','luong.nt@gmail.com','5','4','1','1');)
+2021-03-23 02:37:43 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event(`event_name`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('tour ninh thuận regist','nguyễn thành lương','0348829998','luong.nt@gmail.com','5','4','1','1');)
+2021-03-23 02:38:02 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-23 02:38:02 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+)
+
+2021-03-23 02:38:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-23 02:38:02 [DEBUG] ACTION: MEventDao#insert[params=(Array
+(
+    [event_name] => tour ninh thuận regist
+    [start_time] => 23/03/2021
+    [end_time] => 24/03/2021
+    [name_customer] => nguyễn thành lương
+    [phone_customer] => 0348829998
+    [email_customer] => luong.nt@gmail.com
+    [number_adults] => 5
+    [number_kid] => 4
+    [type_id] => 1
+    [status] => 1
+    [deleted_flag] => 
+    [created_user] => 
+    [created_time] => 
+    [updated_user] => 
+    [updated_time] => 
+)
+)]
+2021-03-23 02:38:02 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event(`event_name`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('tour ninh thuận regist','nguyễn thành lương','0348829998','luong.nt@gmail.com','5','4','1','1');)
+2021-03-23 02:38:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event(`event_name`,`name_customer`,`phone_customer`,`email_customer`,`number_adults`,`number_kid`,`type_id`,`status`) VALUES ('tour ninh thuận regist','nguyễn thành lương','0348829998','luong.nt@gmail.com','5','4','1','1');)
+2021-03-23 02:38:35 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:38:35 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:38:35 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:38:35 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+)]
+2021-03-23 02:38:35 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','valentine');)
+2021-03-23 02:38:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','valentine');)
+2021-03-23 02:42:28 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:42:28 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:42:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:42:28 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeuregistdd
+)
+)]
+2021-03-23 02:42:28 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','ngayletinhyeuregistdd');)
+2021-03-23 02:42:28 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','ngayletinhyeuregistdd');)
+2021-03-23 02:43:42 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:43:42 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:43:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:43:42 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu regist dd
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeuregistdd
+)
+)]
+2021-03-23 02:43:42 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','ngayletinhyeuregistdd');)
+2021-03-23 02:43:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu regist dd','#fffffff','ngayletinhyeuregistdd');)
+2021-03-23 02:44:29 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 02:44:29 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:44:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 5
+)
+
+2021-03-23 02:44:29 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 5
+        )
+
+)
+)]
+2021-03-23 02:44:29 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu update', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:44:29', `updated_user`=NULL WHERE id = 5 and  deleted_flag <> 1)
+2021-03-23 02:44:29 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu update', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:44:29', `updated_user`=NULL WHERE id = 5 and  deleted_flag <> 1)
+2021-03-23 02:44:29 [DEBUG] ACTION: BaseMySqliDao#update result = (0)
+2021-03-23 02:44:38 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 02:44:38 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:44:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 02:44:38 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 02:44:38 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu update', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:44:38', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:44:38 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu update', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:44:38', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:44:38 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 02:45:56 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 02:45:56 [DEBUG] ACTION: POST:Array
+(
+    [id] => 10
+)
+
+2021-03-23 02:45:56 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 02:45:56 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 02:45:56 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 02:45:56', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:45:56 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 02:45:56', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:45:56 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 02:47:02 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 02:47:02 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:47:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 02:47:02 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 02:47:02 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 02:47:02 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 02:47:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 02:47:37 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 02:47:37 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:47:37 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 02:47:37 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 02:47:37 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 02:47:37 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 02:47:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 02:48:28 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 02:48:28 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:48:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 02:49:00 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 02:49:00 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:49:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 02:49:00 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 02:49:00 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:49:00', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:49:00 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1', `code_color`='#fffffff', `code_type`='valentine', `updated_time`='2021-03-23 02:49:00', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 02:49:00 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 02:49:08 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:49:08 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:49:08 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:49:08 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu2
+)
+)]
+2021-03-23 02:49:08 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 2','#fffffff','ngayletinhyeu2');)
+2021-03-23 02:49:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 2','#fffffff','ngayletinhyeu2');)
+2021-03-23 02:49:13 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:49:13 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:49:13 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:49:13 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 02:49:13 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 02:49:13 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 02:49:31 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 02:49:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:49:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 02:49:31 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 02:49:31 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 02:49:31 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 02:49:31 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 02:56:52 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:56:52 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 02:56:52 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:58:01 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:58:01 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:58:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:58:01 [ERROR] ACTION: The method [POST] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 02:58:14 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:58:14 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:58:14 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:58:14 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu2
+)
+)]
+2021-03-23 02:58:14 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 2','#fffffff','ngayletinhyeu2');)
+2021-03-23 02:58:14 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 2','#fffffff','ngayletinhyeu2');)
+2021-03-23 02:58:49 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:58:49 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:58:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:58:49 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 02:58:49 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 02:58:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 02:59:12 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:59:12 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:59:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:59:12 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu1
+)
+)]
+2021-03-23 02:59:12 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 1','#fffffff','ngayletinhyeu1');)
+2021-03-23 02:59:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 1','#fffffff','ngayletinhyeu1');)
+2021-03-23 02:59:51 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 02:59:51 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 4
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 02:59:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 02:59:51 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 4
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu4
+)
+)]
+2021-03-23 02:59:51 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 4','#fffffff','ngayletinhyeu4');)
+2021-03-23 02:59:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 4','#fffffff','ngayletinhyeu4');)
+2021-03-23 03:01:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:01:41 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:01:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:01:41 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:01:41 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:01:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:02:16 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:02:16 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:02:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:02:16 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:02:16 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:02:16 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:03:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:03:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:03:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:03:50 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:03:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:03:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:02 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:04:02 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:04:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:02 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:04:15 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:04:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:04:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:23 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:04:23 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:04:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:38 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:04:38 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:04:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:38 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:04:58 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:04:58 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:04:58 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:04:58 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:05:15 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:05:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:05:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:05:15 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:05:23 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:05:23 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:05:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:05:23 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:05:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:05:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:05:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:05:31 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:05:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:05:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:05:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:06:05 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:06:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:06:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:06:05 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:06:47 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:06:47 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:06:47 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:06:47 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:06:54 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:06:54 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:06:54 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:07:04 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:07:04 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:07:04 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:07:04 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:07:27 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:07:27 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:07:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:07:38 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:07:38 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:07:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:07:38 [ERROR] ACTION: The method [PUT] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:13:01 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:13:01 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:13:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:13:15 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:13:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:13:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:13:36 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:13:36 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:13:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:13:53 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:13:53 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:13:53 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:14:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:14:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:14:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:14:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:14:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:14:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:14:49 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:14:49 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:14:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:14:56 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:14:56 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:14:56 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:15:05 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:15:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:15:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:15:16 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:15:16 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:15:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:15:27 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:15:27 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:15:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:16:09 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:16:09 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:16:09 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:16:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:16:31 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:16:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:16:32 [ERROR] ACTION: The method [POST] dose not exist.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen('typeevent', 'regist')
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run('typeevent', 'regist')
+#2 {main})
+2021-03-23 03:16:49 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:16:49 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:16:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:16:49 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:16:49 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:16:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:17:16 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:17:16 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:17:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:17:21 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:17:21 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:17:21 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:18:01 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:18:01 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:18:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:18:29 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:18:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:18:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:19:02 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:19:02 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:19:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:19:20 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:19:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:19:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:19:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:19:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:19:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:19:48 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:19:48 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:19:48 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:20:09 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:20:09 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:20:09 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:20:17 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:20:17 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:20:17 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:20:34 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:20:34 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:20:34 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:20:34 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:20:34 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:20:34 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:21:37 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:21:37 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:21:37 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:21:37 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:21:37 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:21:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:26:01 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:26:01 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:26:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:26:50 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:26:50 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:26:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:27:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:27:07 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:27:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:27:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:27:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:27:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:27:38 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:27:38 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:27:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:27:45 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:27:45 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:27:45 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:28:25 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:28:25 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:28:25 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:28:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:28:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:28:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:30:30 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:30:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:30:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:31:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:31:07 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:31:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:31:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:31:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:31:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:31:50 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:31:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:31:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:31:58 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:31:58 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:31:58 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:32:20 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:32:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:32:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:33:15 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:33:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:33:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:35:46 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:35:46 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:35:46 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:35:51 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 03:35:51 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:35:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 03:35:51 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 03:35:51 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 03:35:51 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 03:35:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 03:36:42 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:36:42 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:36:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:36:42 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:36:42 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:36:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:37:19 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:37:19 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:37:19 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:37:29 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:37:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:37:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:37:36 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:37:36 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:37:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:37:36 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:37:36 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:37:36 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:38:11 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:38:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:38:11 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:38:11 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:11 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:19 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:38:19 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:38:19 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:38:19 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:38:19 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:19 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:42 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:38:42 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:38:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:38:42 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:38:42 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:38:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:39:05 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:39:05 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:39:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:39:14 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:39:14 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:39:14 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:39:28 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:39:28 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:39:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:39:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:39:41 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:39:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:39:51 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:39:51 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:39:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:07 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:09 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:09 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:09 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:10 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:10 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:10 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:10 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:10 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:10 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:11 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:12 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:12 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:12 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:12 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:12 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:12 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:30 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:36 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:36 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:41 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:40:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:41 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 03:40:41 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:40:41 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 03:40:49 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:49 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:40:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:40:57 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:40:57 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:40:57 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:42:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:42:07 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 03:42:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:43:14 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:43:14 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:43:14 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:43:21 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:43:21 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:43:21 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:43:27 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:43:27 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:43:27 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:43:45 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:43:45 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:43:45 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:44:15 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:44:15 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:44:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:44:23 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:44:23 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:44:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:48:13 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:48:13 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:48:13 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:50:00 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:50:00 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:50:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:50:14 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:50:14 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:50:14 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:51:02 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:51:02 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:51:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:52:53 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:52:53 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:52:53 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:52:57 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:52:57 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:52:57 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:53:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:53:07 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:53:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:55:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:55:40 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:55:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:55:56 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:55:56 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:55:56 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:56:38 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:56:38 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:56:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:57:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:57:11 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:57:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:57:18 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:57:18 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:57:18 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:57:36 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:57:36 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:57:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 03:58:33 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 03:58:33 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 03:58:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:00:12 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:00:12 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:00:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:00:33 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:00:33 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:00:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:04:07 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:04:07 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:04:07 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:05:28 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:05:28 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:05:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:05:50 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:05:50 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:05:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:08:00 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:08:00 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:08:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:13:05 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:13:05 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:13:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:13:24 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:13:24 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:13:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:15:24 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:15:24 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:15:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:15:24 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 04:15:24 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 04:15:24 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 04:15:29 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:15:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:15:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:16:59 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:16:59 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:16:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:18:06 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:18:06 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:18:06 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:18:06 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [id] => 
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [deleted_tag] => 
+    [updated_time] => 
+    [created_time] => 
+    [updated_user] => 
+    [created_user] => 
+    [code_type] => ngayletinhyeu3
+)
+)]
+2021-03-23 04:18:06 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 04:18:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','ngayletinhyeu3');)
+2021-03-23 04:18:12 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 04:18:12 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:18:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 04:18:12 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 04:18:12 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 04:18:12 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 04:18:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 04:18:37 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 04:18:37 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:18:37 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 04:18:37 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 04:18:37 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 04:18:37 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 04:18:37 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 04:18:43 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:18:43 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:18:43 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:19:00 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:19:00 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:19:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:19:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:19:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:19:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:20:06 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:20:06 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:20:06 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:20:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:20:11 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:20:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:20:24 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:20:24 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:20:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:20:29 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:20:29 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:20:29 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:21:15 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:21:15 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:21:15 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:21:51 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:21:51 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:21:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:21:51 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+)]
+2021-03-23 04:21:51 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','valentine');)
+2021-03-23 04:21:51 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`,`code_type`) VALUES ('ngày lễ tình yêu 3','#fffffff','valentine');)
+2021-03-23 04:23:16 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:23:16 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:23:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:23:21 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:23:21 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:23:21 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:24:12 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:24:12 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:24:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:24:33 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:24:33 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+    [code_type] => valentine
+)
+
+2021-03-23 04:24:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:24:49 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:24:49 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:24:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:26:14 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:26:14 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:26:14 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:26:30 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:26:30 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:26:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:26:35 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:26:35 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:26:35 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:26:50 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:26:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:26:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:27:20 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:27:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:27:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:27:50 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:27:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:27:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:28:10 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:28:10 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:28:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:28:47 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:28:47 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:28:47 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:34:08 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:34:08 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:34:08 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:34:08 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 1 update
+    [code_color] => #fffffff
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 04:34:08 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1 update', `code_color`='#fffffff', `updated_time`='2021-03-23 04:34:08', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:34:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1 update', `code_color`='#fffffff', `updated_time`='2021-03-23 04:34:08', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:34:08 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 04:34:36 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:34:36 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:34:36 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 30
+)
+
+2021-03-23 04:34:36 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 1 update 2
+    [code_color] => #fffffff
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 30
+        )
+
+)
+)]
+2021-03-23 04:34:36 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1 update 2', `code_color`='#fffffff', `updated_time`='2021-03-23 04:34:36', `updated_user`=NULL WHERE id = 30 and  deleted_flag <> 1)
+2021-03-23 04:34:36 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1 update 2', `code_color`='#fffffff', `updated_time`='2021-03-23 04:34:36', `updated_user`=NULL WHERE id = 30 and  deleted_flag <> 1)
+2021-03-23 04:34:36 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 04:39:03 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:03 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:39:03 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:39:10 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:10 [DEBUG] ACTION: POST:Array
+(
+    [id] => 10
+)
+
+2021-03-23 04:39:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:39:17 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:17 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:39:17 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:39:32 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:32 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:39:32 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:39:45 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:45 [DEBUG] ACTION: POST:Array
+(
+    [id] => 10
+)
+
+2021-03-23 04:39:45 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:39:49 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:39:49 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:39:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:40:17 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:40:17 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:40:17 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:40:46 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:40:46 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:40:46 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:41:00 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:41:00 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:41:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:41:13 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:41:13 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:41:13 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:41:48 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:41:48 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:41:48 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:46:16 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:46:16 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:46:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:46:30 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:46:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:46:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:46:37 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:46:37 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:46:37 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:46:58 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:46:58 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:46:58 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:46:58 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 04:46:58 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:46:58', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:46:58 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:46:58', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:46:58 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 04:47:35 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:47:35 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:47:35 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:47:35 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 04:47:35 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:47:35', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:47:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:47:35', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:47:35 [DEBUG] ACTION: BaseMySqliDao#update result = (0)
+2021-03-23 04:49:10 [INFO] ACTION: RunAction#run:[typeevent, edit]
+2021-03-23 04:49:10 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:49:10 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => edit
+    [id] => 10
+)
+
+2021-03-23 04:49:10 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 10
+        )
+
+)
+)]
+2021-03-23 04:49:10 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1', `code_color`='#fffffff', `updated_time`='2021-03-23 04:49:10', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:49:10 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `name_type`='ngày lễ tình yêu 1', `code_color`='#fffffff', `updated_time`='2021-03-23 04:49:10', `updated_user`=NULL WHERE id = 10 and  deleted_flag <> 1)
+2021-03-23 04:49:10 [DEBUG] ACTION: BaseMySqliDao#update result = (0)
+2021-03-23 04:49:22 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:49:22 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:49:22 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:49:22 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 1
+    [code_color] => #fffffff
+    [code_type] => 
+)
+)]
+2021-03-23 04:49:22 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 1','#fffffff');)
+2021-03-23 04:49:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 1','#fffffff');)
+2021-03-23 04:49:39 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:49:39 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:49:39 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:49:39 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 2
+    [code_color] => #fffffff
+    [code_type] => 
+)
+)]
+2021-03-23 04:49:39 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 2','#fffffff');)
+2021-03-23 04:49:39 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 2','#fffffff');)
+2021-03-23 04:49:44 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 04:49:44 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 04:49:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 04:49:44 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => 
+)
+)]
+2021-03-23 04:49:44 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 04:49:44 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 04:50:02 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 04:50:02 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:50:02 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 04:50:02 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 04:50:02 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 04:50:02 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 04:50:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-23 04:50:34 [INFO] ACTION: RunAction#run:[typeevent, delete]
+2021-03-23 04:50:34 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 04:50:34 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => delete
+)
+
+2021-03-23 04:50:34 [DEBUG] ACTION: MTypeEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 31
+        )
+
+)
+)]
+2021-03-23 04:50:34 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:50:34', `updated_user`=NULL WHERE id = 31 and  deleted_flag <> 1)
+2021-03-23 04:50:34 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event_type SET `deleted_flag`=1, `updated_time`='2021-03-23 04:50:34', `updated_user`=NULL WHERE id = 31 and  deleted_flag <> 1)
+2021-03-23 04:50:34 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-23 07:23:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:23:40 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:23:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:26:16 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:26:16 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:26:16 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:27:38 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:27:38 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:27:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:30:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:30:11 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:30:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:30:31 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:30:31 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:30:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:33:11 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:33:11 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:33:11 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:33:11 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => 
+)
+)]
+2021-03-23 07:33:11 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 07:33:11 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 07:33:41 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:33:41 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:33:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:41:40 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:41:40 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:41:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:44:59 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:44:59 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:44:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:48:39 [INFO] ACTION: RunAction#run:[typeevent, regist]
+2021-03-23 07:48:39 [DEBUG] ACTION: POST:Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+)
+
+2021-03-23 07:48:39 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+    [mode] => regist
+)
+
+2021-03-23 07:48:39 [DEBUG] ACTION: MTypeEventDao#insert[params=(Array
+(
+    [name_type] => ngày lễ tình yêu 3
+    [code_color] => #fffffff
+    [code_type] => 
+)
+)]
+2021-03-23 07:48:39 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 07:48:39 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event_type(`name_type`,`code_color`) VALUES ('ngày lễ tình yêu 3','#fffffff');)
+2021-03-23 10:46:05 [INFO] ACTION: RunAction#run:[typeevent, ]
+2021-03-23 10:46:05 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-23 10:46:05 [DEBUG] ACTION: GET:Array
+(
+    [req] => typeevent
+)
+
+2021-03-23 10:46:06 [DEBUG] ACTION: MTypeEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc), params = (Array
+(
+    [id] => 
+    [name_type] => 
+    [code_color] => 
+    [code_type] => 
+)
+)]
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-23 10:46:06 [DEBUG] ACTION: MTypeEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A), params = ()]
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc) A)
+2021-03-23 10:46:06 [DEBUG] ACTION: MTypeEventDao#select[input sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20), params = ()]
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event_type.updated_time, e_event_type.created_time) desc LIMIT 0,20)
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-23 10:46:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)

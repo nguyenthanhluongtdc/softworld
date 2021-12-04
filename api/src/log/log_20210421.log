@@ -1,0 +1,54 @@
+2021-04-21 11:52:45 [INFO] ACTION: RunAction#run:[event, ]
+2021-04-21 11:52:45 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-04-21 11:52:45 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-04-21 11:52:45 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 ), params = ()]
+2021-04-21 11:52:45 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event_type LEFT JOIN e_event AS event ON e_event_type.id = event.type_id where event.deleted_flag <> 1 and e_event_type.deleted_flag <> 1 )
+2021-04-21 11:54:44 [INFO] ACTION: RunAction#run:[event, regist]
+2021-04-21 11:54:44 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 
+    [status] => 
+)
+
+2021-04-21 11:54:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-04-21 11:54:49 [INFO] ACTION: RunAction#run:[event, regist]
+2021-04-21 11:54:49 [DEBUG] ACTION: POST:Array
+(
+    [event_name] => Du lịch 
+    [start_time] => 2021-04-01 04:05:10
+    [end_time] => 2021-04-01 05:06:07
+    [name_customer] => Nguyen thanh luong
+    [phone_customer] => 098765767
+    [email_customer] => ntl.tdc.edu.vn@gmail.com
+    [number_adults] => 9
+    [number_kid] => 3
+    [type_id] => 
+    [status] => 
+)
+
+2021-04-21 11:54:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+

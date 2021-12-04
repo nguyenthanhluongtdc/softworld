@@ -1,0 +1,59 @@
+-- Project Name : iwaki
+-- Date/Time    : 2016-04-09 11:09:25 AM
+-- Author       : iwaki
+-- RDBMS Type   : MySQL
+-- Application  : A5:SQL Mk-2
+
+-- 案件情報
+drop table if exists prj_info cascade;
+
+create table prj_info (
+  prj_id INT(11) not null AUTO_INCREMENT comment '案件ID'
+  , prj_status INT(2) not null comment '案件ステータス	 0:見積提出、1:仮契約、2:本契約、10:キャンセル'
+  , prj_maker INT(3) comment '案件メーカー'
+  , prj_cust_name VARCHAR(250) not null comment 'お客様氏名	 お客様氏名'
+  , prj_cust_pos_code VARCHAR(8) comment '住所（お客様住居）1	 XXX-YYYY'
+  , prj_cust_prefectures INT comment '住所（お客様住居）2'
+  , prj_cust_city VARCHAR(250) comment '住所（お客様住居）3'
+  , prj_cust_address VARCHAR(250) comment '住所（お客様住居）4'
+  , prj_cust_mansion_info VARCHAR(250) comment '住所（お客様住居）5'
+  , prj_cust_ins_loc_pos_code VARCHAR(8) comment '住所（設置場所）1	 XXX-YYYY'
+  , prj_cust_ins_loc_prefectures INT comment '住所（設置場所）2'
+  , prj_cust_ins_loc_city VARCHAR(250) comment '住所（設置場所）3'
+  , prj_cust_ins_loc_address VARCHAR(250) comment '住所（設置場所）4'
+  , prj_cust_ins_loc_mansion_info VARCHAR(250) comment '住所（設置場所）5'
+  , prj_cust_phone_num VARCHAR(13) not null comment '電話番号'
+  , prj_cust_email VARCHAR(100) not null comment 'メールアドレス'
+  , prj_cust_memo VARCHAR(5000) comment 'その他備考	 その他備考'
+  , prj_kind_contract INT(2) comment '種別契約種別	 日程・各種履歴・帳票情報'
+  , prj_kind_garage INT(2) comment '種別車庫	 日程・各種履歴・帳票情報'
+  , prj_kind_pv VARCHAR(250) comment '種別PV	 Comma separated(A,B,C..)'
+  , prj_kind_od VARCHAR(250) comment '種別OD	 Comma separated(A,B,C..)'
+  , prj_gencho_bi DATE comment '現調日	 日程・各種履歴・帳票情報'
+  , prj_keiyaku_bi DATE comment '契約日	 日程・各種履歴・帳票情報'
+  , prj_koji_kaishi_bi DATE comment '工事開始日	 日程・各種履歴・帳票情報'
+  , prj_setsubi_nintei_shinsei_bi1 DATE comment '設備認定 申請日1	 日程・各種履歴・帳票情報'
+  , prj_setsubi_nintei_shinsei_bi2 DATE comment '設備認定 申請日2	 日程・各種履歴・帳票情報'
+  , prj_setsubi_nintei_shinsei_bi3 DATE comment '設備認定 申請日3	 日程・各種履歴・帳票情報'
+  , prj_uchi_ochi_yotei_bi DATE comment '内落予定日	 日程・各種履歴・帳票情報'
+  , prj_uchi_ochi_kakutei_bi DATE comment '内落確定日	 日程・各種履歴・帳票情報'
+  , prj_renkei_bi DATE comment '連系日	 日程・各種履歴・帳票情報'
+  , prj_renkei_done INT(1) comment '営業宛連絡済	 日程・各種履歴・帳票情報'
+  , prj_kanko_bi DATE comment '完工日	 日程・各種履歴・帳票情報'
+  , prj_setchi_hiyo_nenpo_shinsei_bi DATE comment '設置費用年報申請日	 日程・各種履歴・帳票情報'
+  , prj_unten_hiyo_nenpo_shinsei_bi DATE comment '運転費用年報申請日	 日程・各種履歴・帳票情報'
+  , prj_kyanceru_bi DATE comment 'キャンセル日	 日程・各種履歴・帳票情報'
+  , prj_prod_price_selling_total INT(11) comment '製品販売金額合計	 商品情報'
+  , prj_prod_price_part_total INT(11) comment '製品仕切り金額合計	 商品情報'
+  , prj_prod_checklist VARCHAR(5000) comment '製品情報確認事項	 商品情報'
+  , prj_prod_notices VARCHAR(5000) comment '製品情報特記事項	 商品情報'
+  , prj_pay_method INT(1) comment '支払い方法	 1:未定   2:現金  3:クレジット'
+  , prj_pay_completed_date DATE comment '支払い完納日'
+  , deleted_flag INT(1) default 0 comment '削除フラグ	 0:削除なし、1：削除する'
+  , created_user INT(11) not null comment '初回登録者'
+  , created_time DATETIME not null comment '初回登録日時'
+  , updated_user INT(11) comment '最終更新者'
+  , updated_time DATETIME comment '最終更新日時'
+  , constraint prj_info_PKC primary key (prj_id)
+) comment '案件情報	 案件情報テーブル' ;
+

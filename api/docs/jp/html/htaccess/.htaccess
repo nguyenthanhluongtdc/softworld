@@ -1,0 +1,19 @@
+#RewriteEngine on
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^([a-z0-9_]+)/([a-z0-9_]+)/$ index.php?req=$2&%{QUERY_STRING}
+
+
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+AuthUserFile /virtual/shibataka2/.htpasswd_seiyou
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
+order deny,allow
+
+

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.red { color:#ff0000; }
+.red12 { color:#ff0000; font-size:11px; }
+.green { color:#009900; }
+.pink { color:#ff00cc; }
+.pink_b { color:#f68bb4; font-weight:bold; }
+.blue { color:#0066ff; }
+.small_10 { font-size:10px; }
+.orange { color:#ff6633; }
+.kon {  color:#16317f; }
+.kon_s {  color:#16317f; font-size:10px; }
+.black { color:#000000; }
+.black_b { color:#000000; font-weight:normal; }
+.cl_pink { color:#ed416c; font-size:16px; font-weight:bold; padding-top:20px; }
+.gray_s { color:#595757; font-size:10px; }

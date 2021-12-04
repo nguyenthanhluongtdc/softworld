@@ -1,0 +1,1 @@
+function LoginMy(url,PageUrl){var url,PageUrl;$("#LoginMyForm").attr("action",url);$("#PageUrl").val(url+PageUrl);$("#LoginMyForm").submit()}

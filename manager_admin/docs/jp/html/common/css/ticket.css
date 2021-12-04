@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+-------------------------------------------------------- */
+#ticket .mb1e {margin-bottom: 1em!important;}
+#ticket .mb3e {margin-bottom: 3em!important;}
+#ticket .ml1e {margin-left: 1em!important;}
+#ticket ul li {
+	margin-left: 1.5em;
+	list-style: outside disc;
+}
+#ticket .attbox {
+	margin: 0 auto;
+	width: 912px;
+	background: #ffffff url(../img/ticket_attbox_bg.jpg) no-repeat;
+	border: solid 1px #dbdbdb;
+}
+#ticket .attbox ol {margin: 15px 25px;}
+#ticket .attbox ol li {
+	margin: 0.6em 0 0.6em 1.5em;
+	list-style: decimal;
+}
+
+/* layout
+-------------------------------------------------------- */
+#ticket #wrapper {
+	margin-top: 0;
+	padding: 0;
+	width: 1000px;
+}
+#ticket .cts-base-inner {
+	padding: 0 10px 30px 10px;
+	background: url(../img/ticket_bg_mdl.jpg) repeat-y;
+}
+#ticket .cts-base {
+	padding-bottom: 10px;
+	background: url(../img/ticket_bg_btm.jpg) 0 bottom no-repeat;
+}
+#ticket h1, #ticket h2 {float: left;}
+/* navi */
+#ticket #navi_3 {margin-left: 25px;}
+
+/* main
+-------------------------------------------------------- */
+#ticket .main {
+	clear: both;
+	background: url(../img/ticket_bg.gif) 0 0 no-repeat;
+}
+/* form */
+#ticket form {
+	margin: 0 auto;
+	width: 720px;
+}
+#ticket input, #ticket select {
+	margin: 2px 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", verdana, arial, sans-serif;
+	line-height: 1.4;
+}
+#ticket table {
+	margin: 15px 0 55px 0;
+	width: 100%;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+#ticket th, #ticket td {padding: 10px 15px;}
+#ticket th {
+	color: #ffffff;
+	background: #3c68ac;
+	border: none;
+	white-space: nowrap;
+}
+#ticket th.photo {background: #ae3434;}
+#ticket td {
+	background: #ffffff;
+	border: solid 1px #cccccc;
+}
+#ticket td.photo {border: solid 3px #990000;}
+#ticket .input_ss, #ticket .input_s, #ticket .input_m, #ticket .input_l, #ticket option {padding: 2px 4px;}
+#ticket .input_ss {width: 40px;}
+#ticket .input_s {width: 60px;}
+#ticket .input_m {width: 180px;}
+#ticket .input_l {width: 340px;}
+#ticket #btn-apply {
+	cursor: pointer;
+	margin: 15px 0 30px 0;
+	width: 240px;
+	height: 51px;
+	border: none;
+	background: url(../img/ticket_btn_apply.gif);
+}
+#ticket .fColRed {color: #990000;}
+
+/* complete
+-------------------------------------------------------- */
+#ticket .attbox.comp {
+	padding: 80px;
+	width: 752px;
+	text-align: center;
+}
+#ticket .attbox.comp .accent {
+	margin: 0 auto;
+	padding: 15px;
+	width: 28em;
+	font-weight: bold;
+	color: #ae3434;
+	border: solid 3px #ae3434;
+}
+
+/* error
+-------------------------------------------------------- */
+.error_message{
+margin-right: 20px;
+color: red;
+display: none;
+}

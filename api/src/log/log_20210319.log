@@ -1,0 +1,4941 @@
+2021-03-19 02:20:08 [INFO] ACTION: RunAction#run:[, ]
+2021-03-19 02:20:08 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:20:08 [DEBUG] ACTION: GET:Array
+(
+)
+
+2021-03-19 02:20:08 [INFO] ACTION: RunAction#run:[index, ]
+2021-03-19 02:20:08 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:20:08 [DEBUG] ACTION: GET:Array
+(
+    [req] => index
+)
+
+2021-03-19 02:20:08 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-19 02:20:08 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:20:08 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-19 02:20:08 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:20:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:20:08 [DEBUG] ACTION: BaseMySqliDao#selectAll[run sql = (SELECT * FROM m_staff where deleted_flag <> 1)
+2021-03-19 02:20:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff where deleted_flag <> 1)
+2021-03-19 02:20:08 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://api.event/index.php?req=login&amp;mode=login
+    [result_ex] => [{&quot;staff_id&quot;:&quot;1&quot;,&quot;staff_name&quot;:&quot;NGUY\u1ec4N TH\u00c0NH L\u01af\u01a0NG&quot;,&quot;staff_name_kana&quot;:&quot;EXAMPLE&quot;,&quot;staff_office_id&quot;:&quot;1&quot;,&quot;staff_department_id&quot;:&quot;2&quot;,&quot;staff_password&quot;:&quot;21232f297a57a5a743894a0e4a801fc3&quot;,&quot;staff_pos_code&quot;:&quot;ntl&quot;,&quot;staff_prefectures&quot;:&quot;2&quot;,&quot;staff_city&quot;:&quot;tphcm&quot;,&quot;staff_address&quot;:null,&quot;staff_mansion_info&quot;:null,&quot;staff_phone_num&quot;:&quot;09876543&quot;,&quot;staff_email&quot;:&quot;admin@gmail.com&quot;,&quot;staff_supervisor&quot;:&quot;1&quot;,&quot;staff_is_notify_mail&quot;:null,&quot;staff_memo&quot;:null,&quot;deleted_flag&quot;:&quot;0&quot;,&quot;created_user&quot;:&quot;4&quot;,&quot;created_time&quot;:&quot;2021-03-01 00:00:00&quot;,&quot;updated_user&quot;:&quot;1&quot;,&quot;updated_time&quot;:&quot;2021-03-16 08:23:13&quot;},{&quot;staff_id&quot;:&quot;5&quot;,&quot;staff_name&quot;:&quot;NGUY\u1ec4N TH\u00c0NH L\u01af\u01a0NG&quot;,&quot;staff_name_kana&quot;:&quot;EXAMPLE&quot;,&quot;staff_office_id&quot;:&quot;1&quot;,&quot;staff_department_id&quot;:&quot;2&quot;,&quot;staff_password&quot;:&quot;21232f297a57a5a743894a0e4a801fc3&quot;,&quot;staff_pos_code&quot;:&quot;ntl&quot;,&quot;staff_prefectures&quot;:&quot;2&quot;,&quot;staff_city&quot;:&quot;tphcm&quot;,&quot;staff_address&quot;:null,&quot;staff_mansion_info&quot;:null,&quot;staff_phone_num&quot;:&quot;098735678&quot;,&quot;staff_email&quot;:&quot;admin@gmail.com&quot;,&quot;staff_supervisor&quot;:&quot;1&quot;,&quot;staff_is_notify_mail&quot;:null,&quot;staff_memo&quot;:null,&quot;deleted_flag&quot;:&quot;0&quot;,&quot;created_user&quot;:&quot;4&quot;,&quot;created_time&quot;:&quot;2021-03-01 00:00:00&quot;,&quot;updated_user&quot;:&quot;1&quot;,&quot;updated_time&quot;:&quot;2021-03-16 08:23:26&quot;}]
+)
+
+2021-03-19 02:21:01 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-19 02:21:01 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => admin
+)
+
+2021-03-19 02:21:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:21:01 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT * FROM m_staff WHERE staff_email = :staffEmail AND staff_password = :userPassword AND deleted_flag <> 1), params = (Array
+(
+    [staffEmail] => admin@gmail.com
+    [userPassword] => 21232f297a57a5a743894a0e4a801fc3
+)
+)]
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff WHERE staff_email = 'admin@gmail.com' AND staff_password = '21232f297a57a5a743894a0e4a801fc3' AND deleted_flag <> 1)
+2021-03-19 02:21:01 [DEBUG] ACTION: MStaffRoleDao#select[input sql = (SELECT role_id FROM m_staff_roles where  staff_id = :staff_id), params = (Array
+(
+    [staff_id] => 1
+)
+)]
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT role_id FROM m_staff_roles where  staff_id = '1')
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#commit
+2021-03-19 02:21:01 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (COMMIT;)
+2021-03-19 02:21:01 [INFO] ACTION: RunAction#run:[index, ]
+2021-03-19 02:21:01 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => index
+)
+
+2021-03-19 02:21:02 [DEBUG] ACTION: MProjectDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT
+                    pi.prj_id,
+                    pi.prj_cust_name,
+                    pi.prj_cust_pos_code,
+                    pi.prj_cust_prefectures,
+                    pi.prj_cust_city,
+                    pi.prj_cust_address,
+                    pi.prj_cust_mansion_info,
+                    history_upd_item_id,
+                    #history_updated_time,
+                    history_approve_info.id, #History ID
+                    history_updated_time
+                FROM
+                    prj_info pi     INNER JOIN
+                    (
+                        SELECT
+                          pi.prj_id
+                          , puh.id
+                          , GROUP_CONCAT(DISTINCT puh.upd_item_id ORDER BY upd_item_id) AS history_upd_item_id
+                          ,  max(puh.upd_date_time) as history_updated_time
+                        FROM
+                            prj_info pi
+                            INNER JOIN
+                            (
+                                SELECT
+                                    pi.prj_id
+                                FROM
+                                    prj_info pi
+                                    LEFT JOIN (
+                                            SELECT
+                                                pas.prj_id
+                                                , pas.approve_sts
+                                            FROM
+                                                m_staff s
+                                                INNER JOIN prj_approve_status pas
+                                                ON
+                                                    pas.staff_id = s.staff_id
+                                                    AND pas.deleted_flag <> 1
+                                                    AND s.deleted_flag <> 1
+                                            WHERE
+                                                s.staff_is_notify_mail = 1
+                                                AND s.staff_id = :staff_id
+                                                AND pas.approve_sts = 1
+                                            GROUP BY
+                                                pas.prj_id
+                                    ) approve
+                                    ON
+                                        approve.prj_id = pi.prj_id
+                                        AND pi.deleted_flag <> 1
+                                WHERE
+                                    EXISTS(
+                                        SELECT 
+                                            1
+                                        FROM
+                                            m_staff
+                                        WHERE
+                                            staff_id = :staff_id
+                                            AND staff_is_notify_mail = 1
+                                            AND deleted_flag <> 1
+                                    )
+                                    AND IFNULL(approve.approve_sts, 0) <> 1
+                                UNION
+                                SELECT
+                                    p.prj_id
+                                FROM
+                                    prj_info p
+                                    INNER JOIN prj_assign_info pa
+                                    ON
+                                        p.prj_id = pa.prj_id
+                                        AND p.deleted_flag <> 1
+                                        AND pa.deleted_flag <> 1
+                                        AND pa.prj_role_grp = 1
+                                        AND pa.prj_staff_pos = 1
+                                        
+                                    INNER JOIN m_staff s
+                                    ON
+                                        pa.prj_staff_id = s.staff_id
+                                        AND (
+                                                (
+                                                    s.staff_id = :staff_id
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND
+                                                                IFNULL(psam.prj_pic_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                OR 
+                                                (
+                                                    s.staff_supervisor = :staff_id
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND IFNULL(psam.prj_sup_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                
+                                        )
+                                GROUP BY
+                                    p.prj_id
+
+                            ) approve_info
+                            ON
+                                pi.prj_id = approve_info.prj_id
+                            LEFT JOIN prj_update_history puh 
+                            ON 
+                                approve_info.prj_id = puh.prj_id
+                                AND puh.upd_sts = 1
+                                AND puh.deleted_flag <> 1
+                        GROUP BY
+                            pi.prj_id,puh.id
+                    ) history_approve_info
+                    ON
+                        history_approve_info.prj_id = pi.prj_id
+                WHERE pi.deleted_flag <> 1
+                ORDER BY history_updated_time desc), params = (Array
+(
+    [staff_id] => 1
+    [role_required] => 
+)
+)]
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:21:02 [DEBUG] ACTION: MProjectDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT
+                    pi.prj_id,
+                    pi.prj_cust_name,
+                    pi.prj_cust_pos_code,
+                    pi.prj_cust_prefectures,
+                    pi.prj_cust_city,
+                    pi.prj_cust_address,
+                    pi.prj_cust_mansion_info,
+                    history_upd_item_id,
+                    #history_updated_time,
+                    history_approve_info.id, #History ID
+                    history_updated_time
+                FROM
+                    prj_info pi     INNER JOIN
+                    (
+                        SELECT
+                          pi.prj_id
+                          , puh.id
+                          , GROUP_CONCAT(DISTINCT puh.upd_item_id ORDER BY upd_item_id) AS history_upd_item_id
+                          ,  max(puh.upd_date_time) as history_updated_time
+                        FROM
+                            prj_info pi
+                            INNER JOIN
+                            (
+                                SELECT
+                                    pi.prj_id
+                                FROM
+                                    prj_info pi
+                                    LEFT JOIN (
+                                            SELECT
+                                                pas.prj_id
+                                                , pas.approve_sts
+                                            FROM
+                                                m_staff s
+                                                INNER JOIN prj_approve_status pas
+                                                ON
+                                                    pas.staff_id = s.staff_id
+                                                    AND pas.deleted_flag <> 1
+                                                    AND s.deleted_flag <> 1
+                                            WHERE
+                                                s.staff_is_notify_mail = 1
+                                                AND s.staff_id = '1'
+                                                AND pas.approve_sts = 1
+                                            GROUP BY
+                                                pas.prj_id
+                                    ) approve
+                                    ON
+                                        approve.prj_id = pi.prj_id
+                                        AND pi.deleted_flag <> 1
+                                WHERE
+                                    EXISTS(
+                                        SELECT 
+                                            1
+                                        FROM
+                                            m_staff
+                                        WHERE
+                                            staff_id = '1'
+                                            AND staff_is_notify_mail = 1
+                                            AND deleted_flag <> 1
+                                    )
+                                    AND IFNULL(approve.approve_sts, 0) <> 1
+                                UNION
+                                SELECT
+                                    p.prj_id
+                                FROM
+                                    prj_info p
+                                    INNER JOIN prj_assign_info pa
+                                    ON
+                                        p.prj_id = pa.prj_id
+                                        AND p.deleted_flag <> 1
+                                        AND pa.deleted_flag <> 1
+                                        AND pa.prj_role_grp = 1
+                                        AND pa.prj_staff_pos = 1
+                                        
+                                    INNER JOIN m_staff s
+                                    ON
+                                        pa.prj_staff_id = s.staff_id
+                                        AND (
+                                                (
+                                                    s.staff_id = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND
+                                                                IFNULL(psam.prj_pic_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                OR 
+                                                (
+                                                    s.staff_supervisor = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND IFNULL(psam.prj_sup_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                
+                                        )
+                                GROUP BY
+                                    p.prj_id
+
+                            ) approve_info
+                            ON
+                                pi.prj_id = approve_info.prj_id
+                            LEFT JOIN prj_update_history puh 
+                            ON 
+                                approve_info.prj_id = puh.prj_id
+                                AND puh.upd_sts = 1
+                                AND puh.deleted_flag <> 1
+                        GROUP BY
+                            pi.prj_id,puh.id
+                    ) history_approve_info
+                    ON
+                        history_approve_info.prj_id = pi.prj_id
+                WHERE pi.deleted_flag <> 1
+                ORDER BY history_updated_time desc) A), params = ()]
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT
+                    pi.prj_id,
+                    pi.prj_cust_name,
+                    pi.prj_cust_pos_code,
+                    pi.prj_cust_prefectures,
+                    pi.prj_cust_city,
+                    pi.prj_cust_address,
+                    pi.prj_cust_mansion_info,
+                    history_upd_item_id,
+                    #history_updated_time,
+                    history_approve_info.id, #History ID
+                    history_updated_time
+                FROM
+                    prj_info pi     INNER JOIN
+                    (
+                        SELECT
+                          pi.prj_id
+                          , puh.id
+                          , GROUP_CONCAT(DISTINCT puh.upd_item_id ORDER BY upd_item_id) AS history_upd_item_id
+                          ,  max(puh.upd_date_time) as history_updated_time
+                        FROM
+                            prj_info pi
+                            INNER JOIN
+                            (
+                                SELECT
+                                    pi.prj_id
+                                FROM
+                                    prj_info pi
+                                    LEFT JOIN (
+                                            SELECT
+                                                pas.prj_id
+                                                , pas.approve_sts
+                                            FROM
+                                                m_staff s
+                                                INNER JOIN prj_approve_status pas
+                                                ON
+                                                    pas.staff_id = s.staff_id
+                                                    AND pas.deleted_flag <> 1
+                                                    AND s.deleted_flag <> 1
+                                            WHERE
+                                                s.staff_is_notify_mail = 1
+                                                AND s.staff_id = '1'
+                                                AND pas.approve_sts = 1
+                                            GROUP BY
+                                                pas.prj_id
+                                    ) approve
+                                    ON
+                                        approve.prj_id = pi.prj_id
+                                        AND pi.deleted_flag <> 1
+                                WHERE
+                                    EXISTS(
+                                        SELECT 
+                                            1
+                                        FROM
+                                            m_staff
+                                        WHERE
+                                            staff_id = '1'
+                                            AND staff_is_notify_mail = 1
+                                            AND deleted_flag <> 1
+                                    )
+                                    AND IFNULL(approve.approve_sts, 0) <> 1
+                                UNION
+                                SELECT
+                                    p.prj_id
+                                FROM
+                                    prj_info p
+                                    INNER JOIN prj_assign_info pa
+                                    ON
+                                        p.prj_id = pa.prj_id
+                                        AND p.deleted_flag <> 1
+                                        AND pa.deleted_flag <> 1
+                                        AND pa.prj_role_grp = 1
+                                        AND pa.prj_staff_pos = 1
+                                        
+                                    INNER JOIN m_staff s
+                                    ON
+                                        pa.prj_staff_id = s.staff_id
+                                        AND (
+                                                (
+                                                    s.staff_id = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND
+                                                                IFNULL(psam.prj_pic_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                OR 
+                                                (
+                                                    s.staff_supervisor = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND IFNULL(psam.prj_sup_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                
+                                        )
+                                GROUP BY
+                                    p.prj_id
+
+                            ) approve_info
+                            ON
+                                pi.prj_id = approve_info.prj_id
+                            LEFT JOIN prj_update_history puh 
+                            ON 
+                                approve_info.prj_id = puh.prj_id
+                                AND puh.upd_sts = 1
+                                AND puh.deleted_flag <> 1
+                        GROUP BY
+                            pi.prj_id,puh.id
+                    ) history_approve_info
+                    ON
+                        history_approve_info.prj_id = pi.prj_id
+                WHERE pi.deleted_flag <> 1
+                ORDER BY history_updated_time desc) A)
+2021-03-19 02:21:02 [DEBUG] ACTION: MProjectDao#select[input sql = (SELECT
+                    pi.prj_id,
+                    pi.prj_cust_name,
+                    pi.prj_cust_pos_code,
+                    pi.prj_cust_prefectures,
+                    pi.prj_cust_city,
+                    pi.prj_cust_address,
+                    pi.prj_cust_mansion_info,
+                    history_upd_item_id,
+                    #history_updated_time,
+                    history_approve_info.id, #History ID
+                    history_updated_time
+                FROM
+                    prj_info pi     INNER JOIN
+                    (
+                        SELECT
+                          pi.prj_id
+                          , puh.id
+                          , GROUP_CONCAT(DISTINCT puh.upd_item_id ORDER BY upd_item_id) AS history_upd_item_id
+                          ,  max(puh.upd_date_time) as history_updated_time
+                        FROM
+                            prj_info pi
+                            INNER JOIN
+                            (
+                                SELECT
+                                    pi.prj_id
+                                FROM
+                                    prj_info pi
+                                    LEFT JOIN (
+                                            SELECT
+                                                pas.prj_id
+                                                , pas.approve_sts
+                                            FROM
+                                                m_staff s
+                                                INNER JOIN prj_approve_status pas
+                                                ON
+                                                    pas.staff_id = s.staff_id
+                                                    AND pas.deleted_flag <> 1
+                                                    AND s.deleted_flag <> 1
+                                            WHERE
+                                                s.staff_is_notify_mail = 1
+                                                AND s.staff_id = '1'
+                                                AND pas.approve_sts = 1
+                                            GROUP BY
+                                                pas.prj_id
+                                    ) approve
+                                    ON
+                                        approve.prj_id = pi.prj_id
+                                        AND pi.deleted_flag <> 1
+                                WHERE
+                                    EXISTS(
+                                        SELECT 
+                                            1
+                                        FROM
+                                            m_staff
+                                        WHERE
+                                            staff_id = '1'
+                                            AND staff_is_notify_mail = 1
+                                            AND deleted_flag <> 1
+                                    )
+                                    AND IFNULL(approve.approve_sts, 0) <> 1
+                                UNION
+                                SELECT
+                                    p.prj_id
+                                FROM
+                                    prj_info p
+                                    INNER JOIN prj_assign_info pa
+                                    ON
+                                        p.prj_id = pa.prj_id
+                                        AND p.deleted_flag <> 1
+                                        AND pa.deleted_flag <> 1
+                                        AND pa.prj_role_grp = 1
+                                        AND pa.prj_staff_pos = 1
+                                        
+                                    INNER JOIN m_staff s
+                                    ON
+                                        pa.prj_staff_id = s.staff_id
+                                        AND (
+                                                (
+                                                    s.staff_id = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND
+                                                                IFNULL(psam.prj_pic_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                OR 
+                                                (
+                                                    s.staff_supervisor = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND IFNULL(psam.prj_sup_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                
+                                        )
+                                GROUP BY
+                                    p.prj_id
+
+                            ) approve_info
+                            ON
+                                pi.prj_id = approve_info.prj_id
+                            LEFT JOIN prj_update_history puh 
+                            ON 
+                                approve_info.prj_id = puh.prj_id
+                                AND puh.upd_sts = 1
+                                AND puh.deleted_flag <> 1
+                        GROUP BY
+                            pi.prj_id,puh.id
+                    ) history_approve_info
+                    ON
+                        history_approve_info.prj_id = pi.prj_id
+                WHERE pi.deleted_flag <> 1
+                ORDER BY history_updated_time desc LIMIT 0,20), params = ()]
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT
+                    pi.prj_id,
+                    pi.prj_cust_name,
+                    pi.prj_cust_pos_code,
+                    pi.prj_cust_prefectures,
+                    pi.prj_cust_city,
+                    pi.prj_cust_address,
+                    pi.prj_cust_mansion_info,
+                    history_upd_item_id,
+                    #history_updated_time,
+                    history_approve_info.id, #History ID
+                    history_updated_time
+                FROM
+                    prj_info pi     INNER JOIN
+                    (
+                        SELECT
+                          pi.prj_id
+                          , puh.id
+                          , GROUP_CONCAT(DISTINCT puh.upd_item_id ORDER BY upd_item_id) AS history_upd_item_id
+                          ,  max(puh.upd_date_time) as history_updated_time
+                        FROM
+                            prj_info pi
+                            INNER JOIN
+                            (
+                                SELECT
+                                    pi.prj_id
+                                FROM
+                                    prj_info pi
+                                    LEFT JOIN (
+                                            SELECT
+                                                pas.prj_id
+                                                , pas.approve_sts
+                                            FROM
+                                                m_staff s
+                                                INNER JOIN prj_approve_status pas
+                                                ON
+                                                    pas.staff_id = s.staff_id
+                                                    AND pas.deleted_flag <> 1
+                                                    AND s.deleted_flag <> 1
+                                            WHERE
+                                                s.staff_is_notify_mail = 1
+                                                AND s.staff_id = '1'
+                                                AND pas.approve_sts = 1
+                                            GROUP BY
+                                                pas.prj_id
+                                    ) approve
+                                    ON
+                                        approve.prj_id = pi.prj_id
+                                        AND pi.deleted_flag <> 1
+                                WHERE
+                                    EXISTS(
+                                        SELECT 
+                                            1
+                                        FROM
+                                            m_staff
+                                        WHERE
+                                            staff_id = '1'
+                                            AND staff_is_notify_mail = 1
+                                            AND deleted_flag <> 1
+                                    )
+                                    AND IFNULL(approve.approve_sts, 0) <> 1
+                                UNION
+                                SELECT
+                                    p.prj_id
+                                FROM
+                                    prj_info p
+                                    INNER JOIN prj_assign_info pa
+                                    ON
+                                        p.prj_id = pa.prj_id
+                                        AND p.deleted_flag <> 1
+                                        AND pa.deleted_flag <> 1
+                                        AND pa.prj_role_grp = 1
+                                        AND pa.prj_staff_pos = 1
+                                        
+                                    INNER JOIN m_staff s
+                                    ON
+                                        pa.prj_staff_id = s.staff_id
+                                        AND (
+                                                (
+                                                    s.staff_id = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND
+                                                                IFNULL(psam.prj_pic_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                OR 
+                                                (
+                                                    s.staff_supervisor = '1'
+                                                    AND EXISTS(
+                                                        SELECT 
+                                                            1
+                                                        FROM
+                                                            prj_shurui_appr_mgt psam
+                                                        WHERE
+                                                            pa.prj_id = psam.prj_id
+                                                            AND IFNULL(psam.prj_sup_approve_sts, 0) = 0
+                                                            AND psam.deleted_flag <> 1
+                                                    )
+                                                )
+                                                
+                                        )
+                                GROUP BY
+                                    p.prj_id
+
+                            ) approve_info
+                            ON
+                                pi.prj_id = approve_info.prj_id
+                            LEFT JOIN prj_update_history puh 
+                            ON 
+                                approve_info.prj_id = puh.prj_id
+                                AND puh.upd_sts = 1
+                                AND puh.deleted_flag <> 1
+                        GROUP BY
+                            pi.prj_id,puh.id
+                    ) history_approve_info
+                    ON
+                        history_approve_info.prj_id = pi.prj_id
+                WHERE pi.deleted_flag <> 1
+                ORDER BY history_updated_time desc LIMIT 0,20)
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:21:02 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:21:02 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [sort_condition] =>  IFNULL(pi.updated_time, pi.created_time) desc
+    [currentPage] => 1
+    [pageSize] => 20
+    [totalRow] => 0
+    [urlSearch] => http://api.event/index.php?req=index&amp;mode=search
+    [urlHistory] => http://api.event/index.php?req=history&amp;mode=index
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:21:06 [INFO] ACTION: RunAction#run:[staff, regist]
+2021-03-19 02:21:06 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:06 [DEBUG] ACTION: GET:Array
+(
+    [req] => staff
+    [mode] => regist
+)
+
+2021-03-19 02:21:06 [DEBUG] ACTION: MStaffDao#select[input sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 ), params = ()]
+2021-03-19 02:21:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 )
+2021-03-19 02:21:06 [DEBUG] ACTION: MOfficeDao#select[input sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1), params = ()]
+2021-03-19 02:21:06 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1)
+2021-03-19 02:21:06 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [lstaff] => Array
+        (
+            [0] => Array
+                (
+                    [staff_id] => 1
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+            [1] => Array
+                (
+                    [staff_id] => 5
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+        )
+
+    [loffice] => Array
+        (
+            [0] => Array
+                (
+                    [office_id] => 1
+                    [office_name] => Kế toán
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=staff&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=staff&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=staff&amp;mode=delete
+    [urlAjaxOffice] => http://api.event/index.php?req=office&amp;mode=ajaxgetoffice
+    [urlCheckUpdateRole] => http://api.event/index.php?req=staff&mode=checkUpdateRole
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:21:22 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:21:22 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:22 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:21:22 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:21:22 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:21:22 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:21:22 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:21:22 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [listEvent] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [event_name] => 
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-18
+                    [created_time] => 2021-03-17
+                    [updated_user] => 1
+                    [created_user] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [event_name] => tour đà lạt
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0987654432
+                    [email_customer] => sdf@gmail.com
+                    [number_adults] => 4
+                    [number_kid] => 5
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-10
+                    [created_time] => 2021-03-17
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 40
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 41
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 43
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 44
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 45
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 46
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 47
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 48
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [10] => Array
+                (
+                    [id] => 49
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [11] => Array
+                (
+                    [id] => 50
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [12] => Array
+                (
+                    [id] => 51
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [13] => Array
+                (
+                    [id] => 53
+                    [event_name] => tour ninh thuận regist
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 54
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [15] => Array
+                (
+                    [id] => 55
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [16] => Array
+                (
+                    [id] => 56
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [17] => Array
+                (
+                    [id] => 57
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [18] => Array
+                (
+                    [id] => 58
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [19] => Array
+                (
+                    [id] => 59
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+        )
+
+    [currentPage] => 1
+    [totalRow] => 20
+    [pageSize] => 20
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:21:25 [INFO] ACTION: RunAction#run:[staff, regist]
+2021-03-19 02:21:25 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:25 [DEBUG] ACTION: GET:Array
+(
+    [req] => staff
+    [mode] => regist
+)
+
+2021-03-19 02:21:25 [DEBUG] ACTION: MStaffDao#select[input sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 ), params = ()]
+2021-03-19 02:21:25 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 )
+2021-03-19 02:21:25 [DEBUG] ACTION: MOfficeDao#select[input sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1), params = ()]
+2021-03-19 02:21:25 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1)
+2021-03-19 02:21:25 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [lstaff] => Array
+        (
+            [0] => Array
+                (
+                    [staff_id] => 1
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+            [1] => Array
+                (
+                    [staff_id] => 5
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+        )
+
+    [loffice] => Array
+        (
+            [0] => Array
+                (
+                    [office_id] => 1
+                    [office_name] => Kế toán
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=staff&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=staff&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=staff&amp;mode=delete
+    [urlAjaxOffice] => http://api.event/index.php?req=office&amp;mode=ajaxgetoffice
+    [urlCheckUpdateRole] => http://api.event/index.php?req=staff&mode=checkUpdateRole
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:21:28 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:21:28 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:21:28 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:21:28 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:21:28 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:21:28 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:21:28 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [listEvent] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [event_name] => 
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-18
+                    [created_time] => 2021-03-17
+                    [updated_user] => 1
+                    [created_user] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [event_name] => tour đà lạt
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0987654432
+                    [email_customer] => sdf@gmail.com
+                    [number_adults] => 4
+                    [number_kid] => 5
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-10
+                    [created_time] => 2021-03-17
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 40
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 41
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 43
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 44
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 45
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 46
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 47
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 48
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [10] => Array
+                (
+                    [id] => 49
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [11] => Array
+                (
+                    [id] => 50
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [12] => Array
+                (
+                    [id] => 51
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [13] => Array
+                (
+                    [id] => 53
+                    [event_name] => tour ninh thuận regist
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 54
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [15] => Array
+                (
+                    [id] => 55
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [16] => Array
+                (
+                    [id] => 56
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [17] => Array
+                (
+                    [id] => 57
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [18] => Array
+                (
+                    [id] => 58
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [19] => Array
+                (
+                    [id] => 59
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+        )
+
+    [currentPage] => 1
+    [totalRow] => 20
+    [pageSize] => 20
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:21:30 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:21:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:21:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:21:30 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:39:00 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:39:00 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:39:00 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:39:00 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:39:39 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:39:39 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:39:39 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:39:39 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:40:37 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:40:37 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:40:37 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:40:37 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:43:42 [INFO] ACTION: RunAction#run:[staff, regist]
+2021-03-19 02:43:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:43:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => staff
+    [mode] => regist
+)
+
+2021-03-19 02:43:42 [DEBUG] ACTION: MStaffDao#select[input sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 ), params = ()]
+2021-03-19 02:43:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 )
+2021-03-19 02:43:42 [DEBUG] ACTION: MOfficeDao#select[input sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1), params = ()]
+2021-03-19 02:43:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1)
+2021-03-19 02:43:42 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [lstaff] => Array
+        (
+            [0] => Array
+                (
+                    [staff_id] => 1
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+            [1] => Array
+                (
+                    [staff_id] => 5
+                    [staff_name] => NGUYỄN THÀNH LƯƠNG
+                )
+
+        )
+
+    [loffice] => Array
+        (
+            [0] => Array
+                (
+                    [office_id] => 1
+                    [office_name] => Kế toán
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=staff&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=staff&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=staff&amp;mode=delete
+    [urlAjaxOffice] => http://api.event/index.php?req=office&amp;mode=ajaxgetoffice
+    [urlCheckUpdateRole] => http://api.event/index.php?req=staff&mode=checkUpdateRole
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:43:45 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:43:45 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:43:45 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:43:45 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:43:45 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:43:45 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:43:45 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:43:45 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [listEvent] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [event_name] => 
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-18
+                    [created_time] => 2021-03-17
+                    [updated_user] => 1
+                    [created_user] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [event_name] => tour đà lạt
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0987654432
+                    [email_customer] => sdf@gmail.com
+                    [number_adults] => 4
+                    [number_kid] => 5
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-10
+                    [created_time] => 2021-03-17
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 40
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 41
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 43
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 44
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 45
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 46
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 47
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 48
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [10] => Array
+                (
+                    [id] => 49
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [11] => Array
+                (
+                    [id] => 50
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [12] => Array
+                (
+                    [id] => 51
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [13] => Array
+                (
+                    [id] => 53
+                    [event_name] => tour ninh thuận regist
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 54
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [15] => Array
+                (
+                    [id] => 55
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [16] => Array
+                (
+                    [id] => 56
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [17] => Array
+                (
+                    [id] => 57
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [18] => Array
+                (
+                    [id] => 58
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [19] => Array
+                (
+                    [id] => 59
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+        )
+
+    [currentPage] => 1
+    [totalRow] => 20
+    [pageSize] => 20
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:43:47 [INFO] ACTION: RunAction#run:[event, edit]
+2021-03-19 02:43:47 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:43:47 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => edit
+    [id] => 24
+)
+
+2021-03-19 02:43:47 [DEBUG] ACTION: MEventDao#update[params=(Array
+(
+    [event_name] => 
+    [start_time] => 
+    [end_time] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+    [number_adults] => 
+    [number_kid] => 
+    [type_id] => 
+    [status] => 
+    [created_time] => 
+    [updated_time] => 
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 24
+        )
+
+)
+)]
+2021-03-19 02:43:47 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event SET `event_name`=NULL, `name_customer`=NULL, `phone_customer`=NULL, `email_customer`=NULL, `number_adults`=NULL, `number_kid`=NULL, `type_id`=NULL, `status`=NULL, `updated_time`='2021-03-19 02:43:47', `updated_user`='1' WHERE id = 24 and  deleted_flag <> 1)
+2021-03-19 02:43:47 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event SET `event_name`=NULL, `name_customer`=NULL, `phone_customer`=NULL, `email_customer`=NULL, `number_adults`=NULL, `number_kid`=NULL, `type_id`=NULL, `status`=NULL, `updated_time`='2021-03-19 02:43:47', `updated_user`='1' WHERE id = 24 and  deleted_flag <> 1)
+2021-03-19 02:43:47 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-19 02:43:47 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:43:49 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:43:49 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:43:49 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:43:49 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:43:49 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:43:49 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:43:49 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:43:49 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [listEvent] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [event_name] => 
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-19
+                    [created_time] => 2021-03-17
+                    [updated_user] => 1
+                    [created_user] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [event_name] => tour đà lạt
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0987654432
+                    [email_customer] => sdf@gmail.com
+                    [number_adults] => 4
+                    [number_kid] => 5
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-10
+                    [created_time] => 2021-03-17
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 40
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 41
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 43
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 44
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 45
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 46
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 47
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 48
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [10] => Array
+                (
+                    [id] => 49
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [11] => Array
+                (
+                    [id] => 50
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [12] => Array
+                (
+                    [id] => 51
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [13] => Array
+                (
+                    [id] => 53
+                    [event_name] => tour ninh thuận regist
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 54
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [15] => Array
+                (
+                    [id] => 55
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [16] => Array
+                (
+                    [id] => 56
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [17] => Array
+                (
+                    [id] => 57
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [18] => Array
+                (
+                    [id] => 58
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [19] => Array
+                (
+                    [id] => 59
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+        )
+
+    [currentPage] => 1
+    [totalRow] => 20
+    [pageSize] => 20
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:45:12 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:45:12 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:45:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:45:12 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:45:40 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:45:40 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:45:40 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:45:40 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:45:41 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 02:45:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:45:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 02:45:41 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:45:42 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:45:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:45:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:45:42 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:45:42 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:45:42 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:45:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:45:42 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => Array
+                (
+                    [role_login_id] => Array
+                        (
+                            [0] => 1
+                            [1] => 2
+                            [2] => 3
+                            [3] => 4
+                            [4] => 9
+                        )
+
+                )
+
+        )
+
+    [listEvent] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [event_name] => 
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-19
+                    [created_time] => 2021-03-17
+                    [updated_user] => 1
+                    [created_user] => 0
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [event_name] => tour đà lạt
+                    [start_time] => 2021-03-16 00:00:00
+                    [end_time] => 2021-03-09 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0987654432
+                    [email_customer] => sdf@gmail.com
+                    [number_adults] => 4
+                    [number_kid] => 5
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 2021-03-10
+                    [created_time] => 2021-03-17
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 40
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [3] => Array
+                (
+                    [id] => 41
+                    [event_name] => tour ninh thuận update 2
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 43
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 44
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [6] => Array
+                (
+                    [id] => 45
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 46
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [8] => Array
+                (
+                    [id] => 47
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 48
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [10] => Array
+                (
+                    [id] => 49
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [11] => Array
+                (
+                    [id] => 50
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [12] => Array
+                (
+                    [id] => 51
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [13] => Array
+                (
+                    [id] => 53
+                    [event_name] => tour ninh thuận regist
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => nguyễn thành lương
+                    [phone_customer] => 0348829998
+                    [email_customer] => luong.nt@gmail.com
+                    [number_adults] => 5
+                    [number_kid] => 4
+                    [type_id] => 1
+                    [status] => 1
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [14] => Array
+                (
+                    [id] => 54
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [15] => Array
+                (
+                    [id] => 55
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [16] => Array
+                (
+                    [id] => 56
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [17] => Array
+                (
+                    [id] => 57
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [18] => Array
+                (
+                    [id] => 58
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+            [19] => Array
+                (
+                    [id] => 59
+                    [event_name] => 
+                    [start_time] => 0000-00-00 00:00:00
+                    [end_time] => 0000-00-00 00:00:00
+                    [name_customer] => 
+                    [phone_customer] => 
+                    [email_customer] => 
+                    [number_adults] => 0
+                    [number_kid] => 0
+                    [type_id] => 0
+                    [status] => 0
+                    [deleted_flag] => 0
+                    [updated_time] => 
+                    [created_time] => 
+                    [updated_user] => 0
+                    [created_user] => 0
+                )
+
+        )
+
+    [currentPage] => 1
+    [totalRow] => 20
+    [pageSize] => 20
+    [urlRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [urlSearch] => http://api.event/index.php?req=event&amp;mode=search
+    [urlEdit] => http://api.event/index.php?req=event&amp;mode=edit
+    [urlDelete] => http://api.event/index.php?req=event&amp;mode=delete
+    [headerUrlEvent] => http://api.event/index.php?req=event
+    [headerUrlEventRegist] => http://api.event/index.php?req=event&amp;mode=regist
+    [headerUrlStaff] => http://api.event/index.php?req=staff
+    [headerUrlStaffRegist] => http://api.event/index.php?req=staff&amp;mode=regist
+    [headerUrlOffice] => http://api.event/index.php?req=office
+    [headerUrlOfficeRegist] => http://api.event/index.php?req=office&amp;mode=regist
+    [headerUrlProject] => http://api.event/index.php?req=project
+    [headerUrlProjectRegist] => http://api.event/index.php?req=project&amp;mode=regist
+    [headerUrlProjectCal] => http://api.event/index.php?req=project&amp;mode=cal
+    [headerUrlProjectImp] => http://api.event/index.php?req=project&amp;mode=imp
+    [headerUrlKanko] => http://api.event/index.php?req=kanko
+    [UrlIndex] => http://api.event/index.php?req=index
+    [userInfo] => Array
+        (
+            [staff_id] => 1
+            [staff_name] => NGUYỄN THÀNH LƯƠNG
+            [staff_name_kana] => EXAMPLE
+            [staff_office_id] => 1
+            [staff_department_id] => 2
+            [staff_password] => 21232f297a57a5a743894a0e4a801fc3
+            [staff_pos_code] => ntl
+            [staff_prefectures] => 2
+            [staff_city] => tphcm
+            [staff_address] => 
+            [staff_mansion_info] => 
+            [staff_phone_num] => 09876543
+            [staff_email] => admin@gmail.com
+            [staff_supervisor] => 1
+            [staff_is_notify_mail] => 
+            [staff_memo] => 
+            [deleted_flag] => 0
+            [created_user] => 4
+            [created_time] => 2021-03-01 00:00:00
+            [updated_user] => 1
+            [updated_time] => 2021-03-16 08:23:13
+            [roles] => Array
+                (
+                    [0] => Array
+                        (
+                            [role_id] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [role_id] => 2
+                        )
+
+                    [2] => Array
+                        (
+                            [role_id] => 3
+                        )
+
+                    [3] => Array
+                        (
+                            [role_id] => 4
+                        )
+
+                    [4] => Array
+                        (
+                            [role_id] => 9
+                        )
+
+                )
+
+        )
+
+    [urlLogout] => http://api.event/index.php?req=login&mode=logout
+)
+
+2021-03-19 02:48:33 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:48:33 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:48:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:48:33 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:48:33 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:48:33 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:48:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:48:35 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:48:35 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:48:35 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:48:35 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:48:35 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:48:35 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:48:35 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:48:59 [INFO] ACTION: RunAction#run:[event, ]
+2021-03-19 02:48:59 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 02:48:59 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+)
+
+2021-03-19 02:48:59 [DEBUG] ACTION: MEventDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc), params = (Array
+(
+    [id] => 
+    [event_name] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+)
+)]
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 02:48:59 [DEBUG] ACTION: MEventDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A), params = ()]
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc) A)
+2021-03-19 02:48:59 [DEBUG] ACTION: MEventDao#select[input sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM e_event 
+				WHERE deleted_flag <> 1  order by  IFNULL(e_event.updated_time, e_event.created_time) desc LIMIT 0,20)
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 02:48:59 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 02:49:38 [INFO] ACTION: RunAction#run:[event, delete]
+2021-03-19 02:49:38 [DEBUG] ACTION: POST:Array
+(
+    [id] => 59
+)
+
+2021-03-19 02:49:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => delete
+)
+
+2021-03-19 02:49:38 [DEBUG] ACTION: MEventDao#update[params=(Array
+(
+    [deleted_flag] => 1
+)
+), where=(Array
+(
+    [where] => id = :id
+    [params] => Array
+        (
+            [id] => 59
+        )
+
+)
+)]
+2021-03-19 02:49:38 [DEBUG] ACTION: BaseMySqliDao#update[run sql = (UPDATE e_event SET `deleted_flag`=1, `updated_time`='2021-03-19 02:49:38', `updated_user`=NULL WHERE id = 59 and  deleted_flag <> 1)
+2021-03-19 02:49:38 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (UPDATE e_event SET `deleted_flag`=1, `updated_time`='2021-03-19 02:49:38', `updated_user`=NULL WHERE id = 59 and  deleted_flag <> 1)
+2021-03-19 02:49:38 [DEBUG] ACTION: BaseMySqliDao#update result = (1)
+2021-03-19 03:10:42 [INFO] ACTION: RunAction#run:[staff, ]
+2021-03-19 03:10:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 03:10:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => staff
+)
+
+2021-03-19 03:10:42 [DEBUG] ACTION: MStaffDao#select[input sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 ), params = ()]
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT staff_id,staff_name FROM m_staff where deleted_flag <> 1 )
+2021-03-19 03:10:42 [DEBUG] ACTION: MOfficeDao#select[input sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1), params = ()]
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT office_id,office_name FROM m_office_info WHERE deleted_flag <> 1)
+2021-03-19 03:10:42 [DEBUG] ACTION: MStaffDao#selectWithPagging[current page = (1), pageSize = (20), input sql = (SELECT m_staff.*,m_office_info.office_name FROM m_staff 
+				LEFT JOIN m_office_info ON m_staff.staff_office_id = m_office_info.office_id 
+				WHERE m_staff.deleted_flag <> 1  order by  IFNULL(m_staff.updated_time, m_staff.created_time) desc), params = (Array
+(
+    [staff_id] => 
+    [staff_office_id] => 
+    [staff_department_id] => 
+    [staff_name] => 
+    [staff_phone_num] => 
+    [staff_email] => 
+)
+)]
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-19 03:10:42 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT COUNT(1) AS CNT FROM (SELECT m_staff.*,m_office_info.office_name FROM m_staff 
+				LEFT JOIN m_office_info ON m_staff.staff_office_id = m_office_info.office_id 
+				WHERE m_staff.deleted_flag <> 1  order by  IFNULL(m_staff.updated_time, m_staff.created_time) desc) A), params = ()]
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT COUNT(1) AS CNT FROM (SELECT m_staff.*,m_office_info.office_name FROM m_staff 
+				LEFT JOIN m_office_info ON m_staff.staff_office_id = m_office_info.office_id 
+				WHERE m_staff.deleted_flag <> 1  order by  IFNULL(m_staff.updated_time, m_staff.created_time) desc) A)
+2021-03-19 03:10:42 [DEBUG] ACTION: MStaffDao#select[input sql = (SELECT m_staff.*,m_office_info.office_name FROM m_staff 
+				LEFT JOIN m_office_info ON m_staff.staff_office_id = m_office_info.office_id 
+				WHERE m_staff.deleted_flag <> 1  order by  IFNULL(m_staff.updated_time, m_staff.created_time) desc LIMIT 0,20), params = ()]
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT m_staff.*,m_office_info.office_name FROM m_staff 
+				LEFT JOIN m_office_info ON m_staff.staff_office_id = m_office_info.office_id 
+				WHERE m_staff.deleted_flag <> 1  order by  IFNULL(m_staff.updated_time, m_staff.created_time) desc LIMIT 0,20)
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#rollback
+2021-03-19 03:10:42 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (ROLLBACK;)
+2021-03-19 03:10:47 [INFO] ACTION: RunAction#run:[event, regist]
+2021-03-19 03:10:47 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 03:10:47 [DEBUG] ACTION: GET:Array
+(
+    [req] => event
+    [mode] => regist
+)
+
+2021-03-19 03:10:47 [DEBUG] ACTION: MEventDao#insert[params=(Array
+(
+    [event_name] => 
+    [start_time] => 
+    [end_time] => 
+    [name_customer] => 
+    [phone_customer] => 
+    [email_customer] => 
+    [number_adults] => 
+    [number_kid] => 
+    [type_id] => 
+    [status] => 
+    [deleted_flag] => 
+    [created_user] => 
+    [created_time] => 
+    [updated_user] => 
+    [updated_time] => 
+)
+)]
+2021-03-19 03:10:47 [DEBUG] ACTION: BaseMySqliDao#insert[run sql = (INSERT INTO e_event() VALUES ();)
+2021-03-19 03:10:47 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (INSERT INTO e_event() VALUES ();)
+2021-03-19 04:40:35 [INFO] ACTION: RunAction#run:[, ]
+2021-03-19 04:40:35 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-19 04:40:35 [DEBUG] ACTION: GET:Array
+(
+)
+
+2021-03-19 04:40:35 [ERROR] ACTION: The pageId is require.(at #0 C:\xampp\htdocs\api_event\src\admin\action\core\RunAction.php(18): RunAction::runActionScreen(NULL, NULL)
+#1 C:\xampp\htdocs\api_event\src\index.php(40): RunAction::run(NULL, NULL)
+#2 {main})

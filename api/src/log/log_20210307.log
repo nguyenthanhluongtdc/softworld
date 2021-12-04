@@ -1,0 +1,742 @@
+2021-03-07 12:28:28 [INFO] ACTION: RunAction#run:[, ]
+2021-03-07 12:28:28 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:28:28 [DEBUG] ACTION: GET:Array
+(
+)
+
+2021-03-07 12:28:28 [INFO] ACTION: RunAction#run:[index, ]
+2021-03-07 12:28:28 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:28:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => index
+)
+
+2021-03-07 12:28:28 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:28:28 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:28:28 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:28:28 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:31:31 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:31:31 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:31:31 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:31:31 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:31:32 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:31:32 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:31:32 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:31:32 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:31:32 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:31:32 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:31:32 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:31:32 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:32:42 [INFO] ACTION: RunAction#run:[, ]
+2021-03-07 12:32:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:32:42 [DEBUG] ACTION: GET:Array
+(
+)
+
+2021-03-07 12:32:42 [INFO] ACTION: RunAction#run:[index, ]
+2021-03-07 12:32:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:32:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => index
+)
+
+2021-03-07 12:32:42 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:32:42 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:32:42 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:32:42 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:34:20 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:34:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:34:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:34:20 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:34:48 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:34:48 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:34:48 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:34:48 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:35:12 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:35:12 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => 12345
+)
+
+2021-03-07 12:35:12 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:35:12 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-07 12:35:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-07 12:35:12 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT * FROM m_staff WHERE staff_email = :staffEmail AND staff_password = :userPassword AND deleted_flag <> 1), params = (Array
+(
+    [staffEmail] => admin@gmail.com
+    [userPassword] => 827ccb0eea8a706c4c34a16891f84e7b
+)
+)]
+2021-03-07 12:35:12 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff WHERE staff_email = 'admin@gmail.com' AND staff_password = '827ccb0eea8a706c4c34a16891f84e7b' AND deleted_flag <> 1)
+2021-03-07 12:35:21 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:35:21 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:35:21 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:35:21 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:35:25 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:35:25 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => fsdf
+)
+
+2021-03-07 12:35:25 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:35:25 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-07 12:35:25 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-07 12:35:25 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT * FROM m_staff WHERE staff_email = :staffEmail AND staff_password = :userPassword AND deleted_flag <> 1), params = (Array
+(
+    [staffEmail] => admin@gmail.com
+    [userPassword] => 7d70663568cac5af684503681e3a4d41
+)
+)]
+2021-03-07 12:35:25 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff WHERE staff_email = 'admin@gmail.com' AND staff_password = '7d70663568cac5af684503681e3a4d41' AND deleted_flag <> 1)
+2021-03-07 12:35:30 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:35:30 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:35:30 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:35:30 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:35:33 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:35:33 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => sfsdf
+)
+
+2021-03-07 12:35:33 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:35:33 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-07 12:35:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-07 12:35:33 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT * FROM m_staff WHERE staff_email = :staffEmail AND staff_password = :userPassword AND deleted_flag <> 1), params = (Array
+(
+    [staffEmail] => admin@gmail.com
+    [userPassword] => 27d779cba60f2b5d48debdd970c8e732
+)
+)]
+2021-03-07 12:35:33 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff WHERE staff_email = 'admin@gmail.com' AND staff_password = '27d779cba60f2b5d48debdd970c8e732' AND deleted_flag <> 1)
+2021-03-07 12:36:41 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:36:41 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:36:41 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:36:41 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:36:44 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:36:44 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:36:44 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:36:44 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:36:44 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:36:44 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:36:44 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:36:57 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:36:57 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => 
+    [staff_password] => 
+)
+
+2021-03-07 12:36:57 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:36:57 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+    [listErrorMessage] => Array
+        (
+            [0] => Array
+                (
+                    [message] => 【メールアドレス】を入力（選択）してください。
+                    [itemId] => staff_email
+                )
+
+            [1] => Array
+                (
+                    [message] => 【管理者パスワード】を入力（選択）してください。
+                    [itemId] => staff_password
+                )
+
+        )
+
+)
+
+2021-03-07 12:36:58 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:36:58 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => 
+    [staff_password] => 
+)
+
+2021-03-07 12:36:58 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:36:58 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+    [listErrorMessage] => Array
+        (
+            [0] => Array
+                (
+                    [message] => 【メールアドレス】を入力（選択）してください。
+                    [itemId] => staff_email
+                )
+
+            [1] => Array
+                (
+                    [message] => 【管理者パスワード】を入力（選択）してください。
+                    [itemId] => staff_password
+                )
+
+        )
+
+)
+
+2021-03-07 12:37:01 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:37:01 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => 
+)
+
+2021-03-07 12:37:01 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:37:01 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+    [listErrorMessage] => Array
+        (
+            [0] => Array
+                (
+                    [message] => 【管理者パスワード】を入力（選択）してください。
+                    [itemId] => staff_password
+                )
+
+        )
+
+)
+
+2021-03-07 12:37:04 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:37:04 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => 
+)
+
+2021-03-07 12:37:04 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:37:04 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+    [listErrorMessage] => Array
+        (
+            [0] => Array
+                (
+                    [message] => 【管理者パスワード】を入力（選択）してください。
+                    [itemId] => staff_password
+                )
+
+        )
+
+)
+
+2021-03-07 12:37:08 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:37:08 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => 12
+)
+
+2021-03-07 12:37:08 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:37:08 [DEBUG] ACTION: BaseMySqliDao#beginTransaction
+2021-03-07 12:37:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (START TRANSACTION;)
+2021-03-07 12:37:08 [DEBUG] ACTION: MStaffDao#selectOne[input sql = (SELECT * FROM m_staff WHERE staff_email = :staffEmail AND staff_password = :userPassword AND deleted_flag <> 1), params = (Array
+(
+    [staffEmail] => admin@gmail.com
+    [userPassword] => c20ad4d76fe97759aa27a0c99bff6710
+)
+)]
+2021-03-07 12:37:08 [DEBUG] ACTION: BaseMySqliDao#query[run sql = (SELECT * FROM m_staff WHERE staff_email = 'admin@gmail.com' AND staff_password = 'c20ad4d76fe97759aa27a0c99bff6710' AND deleted_flag <> 1)
+2021-03-07 12:37:23 [INFO] ACTION: RunAction#run:[login, login]
+2021-03-07 12:37:23 [DEBUG] ACTION: POST:Array
+(
+    [staff_email] => admin@gmail.com
+    [staff_password] => 
+)
+
+2021-03-07 12:37:23 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+    [mode] => login
+)
+
+2021-03-07 12:37:23 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+    [listErrorMessage] => Array
+        (
+            [0] => Array
+                (
+                    [message] => 【管理者パスワード】を入力（選択）してください。
+                    [itemId] => staff_password
+                )
+
+        )
+
+)
+
+2021-03-07 12:38:24 [INFO] ACTION: RunAction#run:[, ]
+2021-03-07 12:38:24 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:38:24 [DEBUG] ACTION: GET:Array
+(
+)
+
+2021-03-07 12:38:24 [INFO] ACTION: RunAction#run:[index, ]
+2021-03-07 12:38:24 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:38:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => index
+)
+
+2021-03-07 12:38:24 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:38:24 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:38:24 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:38:24 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:46:38 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:46:38 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:46:38 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:46:38 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:47:51 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:47:51 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:47:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:47:51 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:59:20 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:59:20 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:59:20 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:59:20 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:59:25 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:59:25 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:59:25 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:59:26 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:59:50 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:59:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:59:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:59:50 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:59:50 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:59:50 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:59:50 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:59:51 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+
+2021-03-07 12:59:51 [INFO] ACTION: RunAction#run:[login, ]
+2021-03-07 12:59:51 [DEBUG] ACTION: POST:Array
+(
+)
+
+2021-03-07 12:59:51 [DEBUG] ACTION: GET:Array
+(
+    [req] => login
+)
+
+2021-03-07 12:59:51 [DEBUG] ACTION: processAction#attributes:Array
+(
+    [viewState] => ViewState Object
+        (
+            [viewState:ViewState:private] => 
+        )
+
+    [urlLogin] => http://project_php.local/index.php?req=login&amp;mode=login
+)
+

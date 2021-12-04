@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#ddnavi {
+	clear:both;
+	width:950px;
+	height:40px;
+	margin:15px auto 10px;
+}
+#ddnavi ul li {
+	float:left;
+}
+#ddnavi ul ul {
+	margin:0 0 0 0;
+	padding:0;
+	top:100%;
+	left:0;
+	display:none;
+	position:absolute;
+	z-index:200;
+}
+#ddnavi li li {
+	clear:both;
+}
+#ddnavi li li a {
+	margin:0 0 0 0;
+	padding:5px 0 0 19px;
+	display:block;
+	width:137px;
+	height:20px;
+	color:#000000;
+	background-image:url(../img/header/submenu_btn.gif); 
+}
+#ddnavi li li a:hover  {
+	color:#FFFFFF;
+	background-position:0px -25px;
+}
+#ddnavi li:hover {
+	position:relative;
+}
+#ddnavi li:hover > ul {
+	display: block
+}
